@@ -1,0 +1,30 @@
+{
+  "name": "pltracker",
+  "version": "0.0.1",
+  "description": "A infection deck tracker for Pandemic Legacy Season 2",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konamacona/pltracker.git"
+  },
+  "author": "Mitchell Keenan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konamacona/pltracker/issues"
+  },
+  "homepage": "https://github.com/konamacona/pltracker#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "ts-loader": "^5.1.1",
+    "typescript": "^3.0.3",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
